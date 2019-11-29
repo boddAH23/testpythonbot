@@ -2,7 +2,7 @@ import datetime
 
 from testbot import BotHandler
 
-greet_bot = BotHandler(token)
+greet_bot = BotHandler("765697015:AAFOyLksFpcUI6XLbZ-uXig6wdeSFmT7xxQ")
 greetings = ('hello', 'hi', 'greetings', 'sup')
 now = datetime.datetime.now()
 
