@@ -3,9 +3,8 @@ import os
 
 from testbot import BotHandler
 
-token = os.environ.get('TOKEN', None)
 
-greet_bot = BotHandler("1036743508:AAGWl55n0XDuwhvVcgO2HbE0PINpB9qiUBA")
+greet_bot = BotHandler(os.environ['TOKEN'])
 greetings = ('hello', 'hi', 'greetings', 'sup')
 now = datetime.datetime.now()
 
