@@ -31,14 +31,13 @@ else:
 
 def start_handler(update: Update, context: CallbackContext):
     # Creating a handler-function for /start command
-    logger.info("User {} started bot".format(update.effective_user["id"]))
+    logger.info("User {} started bot".format(update.effective_user["first_name"]))
     update.message.reply_text("Hello from Python!\nPress /random to get random number")
 
 
 def random_handler(update: Update, context: CallbackContext):
     # Creating a handler-function for /random command
     number = random.randint(0, 10)
-    logger.info("Update object:{}".format(update))
     update.message.reply_text("Random number: {}".format(number))
 
 
