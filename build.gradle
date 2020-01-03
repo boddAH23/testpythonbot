@@ -9,6 +9,10 @@ apply plugin: 'idea'
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
+mainClassName = 'Bot.kt'
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 repositories {
     mavenCentral()
     maven { url "https://jitpack.io" }
