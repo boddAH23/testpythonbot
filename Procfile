@@ -1,0 +1,1 @@
+web: java -jar build/libs/kotlin-bot-1.0-SNAPSHOT.jar

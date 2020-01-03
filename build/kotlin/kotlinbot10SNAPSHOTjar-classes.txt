@@ -1,0 +1,1 @@
+/home/alex/develop/kotlin-bot/build/classes/kotlin/main/BotKt$main$1.class:/home/alex/develop/kotlin-bot/build/classes/kotlin/main/BotKt$main$2.class:/home/alex/develop/kotlin-bot/build/classes/kotlin/main/BotKt$main$bot$1$1.class:/home/alex/develop/kotlin-bot/build/classes/kotlin/main/BotKt$main$bot$1.class:/home/alex/develop/kotlin-bot/build/classes/kotlin/main/BotKt.class
